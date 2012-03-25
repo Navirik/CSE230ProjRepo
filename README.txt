@@ -1,0 +1,7 @@
+Gentlemen (Nick and Mitch),
+This is the Git repository for our CSE 230 Project. Git is tailored towards actual source code, but I think we'll find it useful for our project. If we don't find git useful, we'll probably forget about this repository and it'll languish on GitHub until someone puts it out of its misery. Anyways.
+We're going to use git for version control - that is, to make sure that we're always working on the most current version of the project. This way, we won't have to e-mail each other the files or use google docs. It's probably the best way to work on the project concurrently without being in the same physical location. 
+Learning git will prevent us from having to jump through hoops to make sure we're working on the same thing. There are a few things we have to know about git to use it, but we'll find it useful once we get the hang of it, I think.
+
+I think we'll store the root of the project in a folder in the repository. Inside that project, we'll have a folder for the individual components, and a folder for each component that has each component of the component underneath it. Like, a tree. That, or we can just stuff all the files we need in one components folder and just have the overall project in another. Nick, if you have an opinion about this, I'd like to hear it.
+This is completely new to me, BTW and FYI, so don't expect me to know everything about it. 
