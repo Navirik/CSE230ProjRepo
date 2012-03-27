@@ -1,5 +1,5 @@
 EDA Netlist Writer report for Datapath
-Mon Mar 26 09:16:44 2012
+Tue Mar 27 16:35:57 2012
 Quartus II 32-bit Version 11.1 Build 216 11/23/2011 Service Pack 1 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Mon Mar 26 09:16:44 2012 ;
+; EDA Netlist Writer Status ; Successful - Tue Mar 27 16:35:57 2012 ;
 ; Revision Name             ; Datapath                              ;
 ; Top-level Entity Name     ; datapath                              ;
 ; Family                    ; Cyclone II                            ;
@@ -84,13 +84,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 32-bit EDA Netlist Writer
     Info: Version 11.1 Build 216 11/23/2011 Service Pack 1 SJ Web Edition
-    Info: Processing started: Mon Mar 26 09:16:39 2012
+    Info: Processing started: Tue Mar 27 16:35:53 2012
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off Datapath -c Datapath
 Info (204026): Generated files "Datapath.vho", "Datapath_fast.vho", "Datapath_vhd.sdo" and "Datapath_vhd_fast.sdo" in directory "C:/Users/Mitchell/Documents/School/CSE/230/datapath/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 32-bit EDA Netlist Writer was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 291 megabytes
-    Info: Processing ended: Mon Mar 26 09:16:44 2012
-    Info: Elapsed time: 00:00:05
-    Info: Total CPU time (on all processors): 00:00:05
+    Info: Processing ended: Tue Mar 27 16:35:57 2012
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:04
 
 

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Datapath
-Mon Mar 26 09:15:26 2012
+Tue Mar 27 16:35:08 2012
 Quartus II 32-bit Version 11.1 Build 216 11/23/2011 Service Pack 1 SJ Web Edition
 
 
@@ -93,16 +93,16 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                       ;
 +------------------------------------+-----------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Mar 26 09:15:25 2012         ;
+; Analysis & Synthesis Status        ; Successful - Tue Mar 27 16:35:08 2012         ;
 ; Quartus II 32-bit Version          ; 11.1 Build 216 11/23/2011 SP 1 SJ Web Edition ;
 ; Revision Name                      ; Datapath                                      ;
 ; Top-level Entity Name              ; datapath                                      ;
 ; Family                             ; Cyclone II                                    ;
-; Total logic elements               ; 2,618                                         ;
-;     Total combinational functions  ; 2,378                                         ;
+; Total logic elements               ; 2,616                                         ;
+;     Total combinational functions  ; 2,376                                         ;
 ;     Dedicated logic registers      ; 341                                           ;
 ; Total registers                    ; 341                                           ;
-; Total pins                         ; 157                                           ;
+; Total pins                         ; 158                                           ;
 ; Total virtual pins                 ; 0                                             ;
 ; Total memory bits                  ; 0                                             ;
 ; Embedded Multiplier 9-bit elements ; 0                                             ;
@@ -291,23 +291,23 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+-------------------+
 ; Resource                                    ; Usage             ;
 +---------------------------------------------+-------------------+
-; Estimated Total logic elements              ; 2,618             ;
+; Estimated Total logic elements              ; 2,616             ;
 ;                                             ;                   ;
-; Total combinational functions               ; 2378              ;
+; Total combinational functions               ; 2376              ;
 ; Logic element usage by number of LUT inputs ;                   ;
-;     -- 4 input functions                    ; 985               ;
-;     -- 3 input functions                    ; 676               ;
+;     -- 4 input functions                    ; 990               ;
+;     -- 3 input functions                    ; 669               ;
 ;     -- <=2 input functions                  ; 717               ;
 ;                                             ;                   ;
 ; Logic elements by mode                      ;                   ;
-;     -- normal mode                          ; 1699              ;
+;     -- normal mode                          ; 1697              ;
 ;     -- arithmetic mode                      ; 679               ;
 ;                                             ;                   ;
 ; Total registers                             ; 341               ;
 ;     -- Dedicated logic registers            ; 341               ;
 ;     -- I/O registers                        ; 0                 ;
 ;                                             ;                   ;
-; I/O pins                                    ; 157               ;
+; I/O pins                                    ; 158               ;
 ; Maximum fan-out node                        ; lab8:inst5|inst22 ;
 ; Maximum fan-out                             ; 240               ;
 ; Total fan-out                               ; 8365              ;
@@ -320,7 +320,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +--------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                 ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                          ; Library Name ;
 +--------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |datapath                                  ; 2378 (0)          ; 341 (0)      ; 0           ; 0            ; 0       ; 0         ; 157  ; 0            ; |datapath                                                                                                                    ;              ;
+; |datapath                                  ; 2376 (0)          ; 341 (0)      ; 0           ; 0            ; 0       ; 0         ; 158  ; 0            ; |datapath                                                                                                                    ;              ;
 ;    |21mux:inst4|                           ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |datapath|21mux:inst4                                                                                                        ;              ;
 ;    |ALU:inst3|                             ; 46 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |datapath|ALU:inst3                                                                                                          ;              ;
 ;       |FA:inst|                            ; 14 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |datapath|ALU:inst3|FA:inst                                                                                                  ;              ;
@@ -434,7 +434,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |abs_divider_4dg:divider|      ; 1702 (64)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |datapath|control_unit_230:inst|lpm_divide:Mod0|lpm_divide_qlo:auto_generated|abs_divider_4dg:divider                        ;              ;
 ;                |alt_u_div_k5f:divider|     ; 1605 (1605)       ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |datapath|control_unit_230:inst|lpm_divide:Mod0|lpm_divide_qlo:auto_generated|abs_divider_4dg:divider|alt_u_div_k5f:divider  ;              ;
 ;                |lpm_abs_0s9:my_abs_num|    ; 33 (33)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |datapath|control_unit_230:inst|lpm_divide:Mod0|lpm_divide_qlo:auto_generated|abs_divider_4dg:divider|lpm_abs_0s9:my_abs_num ;              ;
-;    |lab8:inst5|                            ; 390 (1)           ; 240 (0)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |datapath|lab8:inst5                                                                                                         ;              ;
+;    |lab8:inst5|                            ; 388 (1)           ; 240 (0)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |datapath|lab8:inst5                                                                                                         ;              ;
 ;       |DEC_4to16:inst21|                   ; 15 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |datapath|lab8:inst5|DEC_4to16:inst21                                                                                        ;              ;
 ;          |lpm_decode:LPM_DECODE_component| ; 15 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |datapath|lab8:inst5|DEC_4to16:inst21|lpm_decode:LPM_DECODE_component                                                        ;              ;
 ;             |decode_c8f:auto_generated|    ; 15 (15)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |datapath|lab8:inst5|DEC_4to16:inst21|lpm_decode:LPM_DECODE_component|decode_c8f:auto_generated                              ;              ;
@@ -471,9 +471,9 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;       |MUX_16to1:inst19|                   ; 187 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |datapath|lab8:inst5|MUX_16to1:inst19                                                                                        ;              ;
 ;          |lpm_mux:LPM_MUX_component|       ; 187 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |datapath|lab8:inst5|MUX_16to1:inst19|lpm_mux:LPM_MUX_component                                                              ;              ;
 ;             |mux_e6e:auto_generated|       ; 187 (187)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |datapath|lab8:inst5|MUX_16to1:inst19|lpm_mux:LPM_MUX_component|mux_e6e:auto_generated                                       ;              ;
-;       |MUX_16to1:inst20|                   ; 187 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |datapath|lab8:inst5|MUX_16to1:inst20                                                                                        ;              ;
-;          |lpm_mux:LPM_MUX_component|       ; 187 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |datapath|lab8:inst5|MUX_16to1:inst20|lpm_mux:LPM_MUX_component                                                              ;              ;
-;             |mux_e6e:auto_generated|       ; 187 (187)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |datapath|lab8:inst5|MUX_16to1:inst20|lpm_mux:LPM_MUX_component|mux_e6e:auto_generated                                       ;              ;
+;       |MUX_16to1:inst20|                   ; 185 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |datapath|lab8:inst5|MUX_16to1:inst20                                                                                        ;              ;
+;          |lpm_mux:LPM_MUX_component|       ; 185 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |datapath|lab8:inst5|MUX_16to1:inst20|lpm_mux:LPM_MUX_component                                                              ;              ;
+;             |mux_e6e:auto_generated|       ; 185 (185)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |datapath|lab8:inst5|MUX_16to1:inst20|lpm_mux:LPM_MUX_component|mux_e6e:auto_generated                                       ;              ;
 +--------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -656,7 +656,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered                                                                            ; Example Multiplexer Output ;
 +--------------------+-----------+---------------+----------------------+------------------------+---------------------------------------------------------------------------------------+----------------------------+
 ; 13:1               ; 2 bits    ; 16 LEs        ; 6 LEs                ; 10 LEs                 ; |datapath|control_unit_230:inst|alu_op[0]                                             ;                            ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; |datapath|MuxC:inst15|lpm_mux:LPM_MUX_component|mux_53e:auto_generated|result_node[3] ;                            ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; |datapath|MuxC:inst15|lpm_mux:LPM_MUX_component|mux_53e:auto_generated|result_node[2] ;                            ;
 +--------------------+-----------+---------------+----------------------+------------------------+---------------------------------------------------------------------------------------+----------------------------+
 
 
@@ -1574,7 +1574,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:25     ;
+; Top            ; 00:00:21     ;
 +----------------+--------------+
 
 
@@ -1584,7 +1584,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 32-bit Analysis & Synthesis
     Info: Version 11.1 Build 216 11/23/2011 Service Pack 1 SJ Web Edition
-    Info: Processing started: Mon Mar 26 09:14:45 2012
+    Info: Processing started: Tue Mar 27 16:34:39 2012
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Datapath -c Datapath
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file muxa.vhd
@@ -1900,14 +1900,14 @@ Info (17049): 21 registers lost all their fanouts during netlist optimizations. 
     Info (17050): Register "control_unit_230:inst|pc_enable" lost all its fanouts during netlist optimizations.
     Info (17050): Register "control_unit_230:inst|wmfc" lost all its fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
-Info (21057): Implemented 2823 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 2822 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 52 input pins
-    Info (21059): Implemented 105 output pins
-    Info (21061): Implemented 2666 logic cells
+    Info (21059): Implemented 106 output pins
+    Info (21061): Implemented 2664 logic cells
 Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 49 warnings
     Info: Peak virtual memory: 356 megabytes
-    Info: Processing ended: Mon Mar 26 09:15:26 2012
-    Info: Elapsed time: 00:00:41
-    Info: Total CPU time (on all processors): 00:00:32
+    Info: Processing ended: Tue Mar 27 16:35:08 2012
+    Info: Elapsed time: 00:00:29
+    Info: Total CPU time (on all processors): 00:00:27
 
 

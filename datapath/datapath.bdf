@@ -151,7 +151,7 @@ applicable agreement for further details.
 	(input)
 	(rect -520 328 -352 344)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "rf_select" (rect 5 0 49 12)(font "Arial" ))
+	(text "rf_select" (rect 5 0 48 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -167,7 +167,7 @@ applicable agreement for further details.
 	(input)
 	(rect -536 352 -368 368)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "rf_test" (rect 5 0 39 12)(font "Arial" ))
+	(text "rf_test" (rect 5 0 38 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -280,6 +280,22 @@ applicable agreement for further details.
 	(rect 3560 488 3736 504)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "data_d[15..0]" (rect 90 0 154 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 3488 184 3664 200)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "rf" (rect 90 0 98 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -1835,18 +1851,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "instruction[6..3]" (rect 728 192 804 204)(font "Arial" ))
-	(pt 784 208)
-	(pt 728 208)
-	(bus)
-)
-(connector
-	(text "instruction[19..16]" (rect 736 176 824 188)(font "Arial" ))
-	(pt 784 192)
-	(pt 736 192)
-	(bus)
-)
-(connector
 	(text "extend[1..0]" (rect 546 208 605 220)(font "Arial" ))
 	(pt 536 224)
 	(pt 608 224)
@@ -2123,11 +2127,6 @@ applicable agreement for further details.
 	(pt -264 312)
 )
 (connector
-	(text "destination_select" (rect -96 291 -84 379)(font "Arial" )(vertical))
-	(pt -80 328)
-	(pt -80 376)
-)
-(connector
 	(text "destination[1..0]" (rect -8 280 71 292)(font "Arial" ))
 	(pt -8 296)
 	(pt 56 296)
@@ -2226,6 +2225,28 @@ applicable agreement for further details.
 (connector
 	(pt 1328 128)
 	(pt 1248 128)
+	(bus)
+)
+(connector
+	(text "rf" (rect 3434 176 3442 188)(font "Arial" ))
+	(pt 3488 192)
+	(pt 3424 192)
+)
+(connector
+	(text "destination_select" (rect -96 307 -84 395)(font "Arial" )(vertical))
+	(pt -80 328)
+	(pt -80 424)
+)
+(connector
+	(text "instruction[6..3]" (rect 696 176 772 188)(font "Arial" ))
+	(pt 784 192)
+	(pt 664 192)
+	(bus)
+)
+(connector
+	(text "instruction[19..16]" (rect 704 192 792 204)(font "Arial" ))
+	(pt 784 208)
+	(pt 680 208)
 	(bus)
 )
 (junction (pt 1712 280))
