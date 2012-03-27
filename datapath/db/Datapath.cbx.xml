@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Datapath">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Datapath|ALU:inst3|Mux_2to1:inst5|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_m4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Datapath|MuxA:MuxMA|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_m4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Datapath|InstructionAddressGenerator:inst12|Const:inst5|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_ak6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Datapath|InstructionAddressGenerator:inst12|MuxINC:inst|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_m4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Datapath|InstructionAddressGenerator:inst12|MuxPC:inst3|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_m4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Datapath|MemoryInterface:inst11|Const:inst3|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_ak6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Datapath|MemoryInterface:inst11|MainMemory:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_pvc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Datapath|lab8:inst5|MUX_16to1:inst19|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_e6e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Datapath|lab8:inst5|MUX_16to1:inst20|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_e6e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Datapath|ALU:inst3|Mux_4to1:inst10|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_p4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Datapath|InstructionAddressGenerator:inst12|Adder:inst1|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_rlh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Datapath|MuxA:inst17|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_m4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Datapath|MuxC:inst15|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_53e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Datapath|MuxTest:inst18|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_13e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|datapath|control_unit_230:inst|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_qlo.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Datapath|MuxPC:inst16|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_m4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Datapath|lab8:inst5|DEC_4to16:inst21|lpm_decode:LPM_DECODE_component" CBX_FILE_NAME="decode_c8f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Datapath|MuxB:MuxY|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_p4e.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

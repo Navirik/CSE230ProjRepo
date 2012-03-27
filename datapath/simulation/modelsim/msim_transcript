@@ -1,0 +1,79 @@
+# Reading C:/Altera/11.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Datapath_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying c:\altera\11.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied c:\altera\11.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {Datapath.vho}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity datapath
+# -- Compiling architecture structure of datapath
+# 
+# do "C:/Users/Mitchell/Documents/School/CSE/230/datapath/datapath_test.do"
+# vsim datapath
+# vsim datapath 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.datapath(structure)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
+# Loading cycloneii.cycloneii_and1(altvital)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
+# ** Warning: Design size of 1 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /clock
+# add wave /IR_Test
+# add wave /test_data
+# add wave /test_destination
+# add wave /reset
+# add wave /test_reg_select
+# add wave /data_source
+# add wave /destination_select
+# add wave /rf_select
+# add wave /rf_test
+# add wave /RA
+# add wave /alu_b
+# add wave /RZ
+# add wave /stage_five
+# add wave /instruction
+# add wave /ir_enable
+# add wave /data_d
+# force clock 0 0, 1 50 -repeat 100
+# force reset 1 0, 0 250
+# force test_destination 0001 0, 0010 100
+# force data_source 1 0, 0 250
+# force destination_select 1 0, 0 250
+# force test_data 0110010101101011 0, 0001110101101010 100
+# force IR_Test 001100000000100100011010 0
+# force rf_select 1 0, 0 250
+# force rf_test 1 0
+# force test_reg_select 10 0
+# run 900
+#  

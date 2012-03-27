@@ -1,0 +1,22 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  cycloneii
+Quartus root          :  c:/altera/11.1sp1/quartus/bin/
+Quartus sim root      :  c:/altera/11.1sp1/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  vhdl
+Version               :  93
+Simulation Mode       :  GUI
+Sim Output File       :  Datapath.vho
+Sim SDF File       :  Datapath_vhd.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script c:/altera/11.1sp1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File Datapath_run_msim_gate_vhdl.do already exists - backing up current file as Datapath_run_msim_gate_vhdl.do.bak11
+Info: Spawning ModelSim-Altera Simulation software 

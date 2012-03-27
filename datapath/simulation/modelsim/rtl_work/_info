@@ -1,0 +1,617 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Mitchell\Documents\School\CSE\230\datapath\simulation\modelsim
+Eadder
+Z1 w1332532104
+Z2 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Mitchell\Documents\School\CSE\230\datapath\simulation\modelsim
+Z5 8C:/Users/Mitchell/Documents/School/CSE/230/datapath/adder.vhd
+Z6 FC:/Users/Mitchell/Documents/School/CSE/230/datapath/adder.vhd
+l0
+L42
+VcATjfAT]^]U7m;?F`jib;0
+Z7 OV;C;10.0c;49
+33
+Z8 !s108 1332768783.751000
+Z9 !s90 -reportprogress|300|-2008|-work|work|C:/Users/Mitchell/Documents/School/CSE/230/datapath/adder.vhd|
+Z10 !s107 C:/Users/Mitchell/Documents/School/CSE/230/datapath/adder.vhd|
+Z11 o-2008 -work work -O0
+Z12 tExplicit 1
+!s100 6NU7E9?ac>]IIhZT@eKbd3
+Asyn
+R2
+R3
+DEx4 work 5 adder 0 22 cATjfAT]^]U7m;?F`jib;0
+l73
+L52
+VWTX@D]GG4cN4]V9ADhEi[3
+R7
+33
+R8
+R9
+R10
+R11
+R12
+!s100 ^<EJMb^8D6QK>lo3@7eZ?3
+Econst
+Z13 w1332532105
+R2
+R3
+R4
+Z14 8C:/Users/Mitchell/Documents/School/CSE/230/datapath/const.vhd
+Z15 FC:/Users/Mitchell/Documents/School/CSE/230/datapath/const.vhd
+l0
+L42
+VDfM@Q=?X>U59Cdi2jolC;2
+R7
+33
+Z16 !s108 1332768781.801000
+Z17 !s90 -reportprogress|300|-2008|-work|work|C:/Users/Mitchell/Documents/School/CSE/230/datapath/const.vhd|
+Z18 !s107 C:/Users/Mitchell/Documents/School/CSE/230/datapath/const.vhd|
+R11
+R12
+!s100 6PZaRfD?0Sa6ecbG@5>Xa2
+Asyn
+R2
+R3
+DEx4 work 5 const 0 22 DfM@Q=?X>U59Cdi2jolC;2
+l68
+L50
+VKBAa8JC>S5U@8CghbeMW83
+R7
+33
+R16
+R17
+R18
+R11
+R12
+!s100 S^gM`C`=Q4iFd[[4;5MLh1
+Econtrol_unit_230
+Z19 w1332532100
+R2
+R3
+R4
+Z20 8C:/Users/Mitchell/Documents/School/CSE/230/datapath/control_unit_230.vhd
+Z21 FC:/Users/Mitchell/Documents/School/CSE/230/datapath/control_unit_230.vhd
+l0
+L11
+VUQ`jF>dlz:Zm>gFck[g0=2
+R7
+33
+Z22 !s108 1332768779.040000
+Z23 !s90 -reportprogress|300|-2008|-work|work|C:/Users/Mitchell/Documents/School/CSE/230/datapath/control_unit_230.vhd|
+Z24 !s107 C:/Users/Mitchell/Documents/School/CSE/230/datapath/control_unit_230.vhd|
+R11
+R12
+!s100 0P=CI@Ek6dz@AeVAR7hAM1
+Acontrol_unit_230_arch
+R2
+R3
+DEx4 work 16 control_unit_230 0 22 UQ`jF>dlz:Zm>gFck[g0=2
+l36
+L31
+Vnl74ZnYzhDLeF_=:4C[>K1
+R7
+33
+R22
+R23
+R24
+R11
+R12
+!s100 @ZKa6kClhKPE;0eagXZ8_1
+Edec_4to16
+Z25 w1331250554
+R2
+R3
+R4
+Z26 8C:/Users/Mitchell/Documents/School/CSE/230/datapath/dec_4to16.vhd
+Z27 FC:/Users/Mitchell/Documents/School/CSE/230/datapath/dec_4to16.vhd
+l0
+L42
+V]ZDHmE1[YD88iQRRKB8<Q0
+R7
+33
+Z28 !s108 1332768781.349000
+Z29 !s90 -reportprogress|300|-2008|-work|work|C:/Users/Mitchell/Documents/School/CSE/230/datapath/dec_4to16.vhd|
+Z30 !s107 C:/Users/Mitchell/Documents/School/CSE/230/datapath/dec_4to16.vhd|
+R11
+R12
+!s100 QZ7YA7G@U5NX1Pl2n>KBK2
+Asyn
+R2
+R3
+DEx4 work 9 dec_4to16 0 22 ]ZDHmE1[YD88iQRRKB8<Q0
+l100
+L66
+V^F`XbmZUOL5MIXg6Z1GZQ2
+R7
+33
+R28
+R29
+R30
+R11
+R12
+!s100 ?>8`Ce3jdJ@7hG;X]:iAM3
+Edff_16bit
+Z31 w1331254474
+R2
+R3
+R4
+Z32 8C:/Users/Mitchell/Documents/School/CSE/230/datapath/dff_16bit.vhd
+Z33 FC:/Users/Mitchell/Documents/School/CSE/230/datapath/dff_16bit.vhd
+l0
+L42
+V6W:9@fXACTIki^=Feo[@X1
+R7
+33
+Z34 !s108 1332768780.210000
+Z35 !s90 -reportprogress|300|-2008|-work|work|C:/Users/Mitchell/Documents/School/CSE/230/datapath/dff_16bit.vhd|
+Z36 !s107 C:/Users/Mitchell/Documents/School/CSE/230/datapath/dff_16bit.vhd|
+R11
+R12
+!s100 Zd@>>QV4PO`mVHe;W2c?<0
+Asyn
+R2
+R3
+DEx4 work 9 dff_16bit 0 22 6W:9@fXACTIki^=Feo[@X1
+l75
+L54
+V_kd?fiXUX?FfA=m[Q0LPW1
+R7
+33
+R34
+R35
+R36
+R11
+R12
+!s100 k6T2`9^NC[EKW3NMMWf3m2
+Eimmediate
+R19
+R2
+R3
+R4
+Z37 8C:/Users/Mitchell/Documents/School/CSE/230/datapath/immediate.vhd
+Z38 FC:/Users/Mitchell/Documents/School/CSE/230/datapath/immediate.vhd
+l0
+L4
+Vn2LYTadF:o`e:1lGIzUVF0
+!s100 FLfiVJe0^OgK2YJ<2^nFM0
+R7
+33
+Z39 !s108 1332768785.249000
+Z40 !s90 -reportprogress|300|-2008|-work|work|C:/Users/Mitchell/Documents/School/CSE/230/datapath/immediate.vhd|
+Z41 !s107 C:/Users/Mitchell/Documents/School/CSE/230/datapath/immediate.vhd|
+R11
+R12
+Aarch
+R2
+R3
+DEx4 work 9 immediate 0 22 n2LYTadF:o`e:1lGIzUVF0
+l12
+L10
+VJ[U3k]L1oLWS@Oe1PfCF:1
+!s100 =EO:e_6;`J;P]6Fk_OWZR0
+R7
+33
+R39
+R40
+R41
+R11
+R12
+Emainmemory
+Z42 w1332532106
+R2
+R3
+R4
+Z43 8C:/Users/Mitchell/Documents/School/CSE/230/datapath/mainmemory.vhd
+Z44 FC:/Users/Mitchell/Documents/School/CSE/230/datapath/mainmemory.vhd
+l0
+L42
+Vn0kYcXh8ng9i]N_IKVgEm0
+R7
+33
+Z45 !s108 1332768782.238000
+Z46 !s90 -reportprogress|300|-2008|-work|work|C:/Users/Mitchell/Documents/School/CSE/230/datapath/mainmemory.vhd|
+Z47 !s107 C:/Users/Mitchell/Documents/School/CSE/230/datapath/mainmemory.vhd|
+R11
+R12
+!s100 VfdDK=CWcKZi5ji`R?O=d2
+Asyn
+R2
+R3
+DEx4 work 10 mainmemory 0 22 n0kYcXh8ng9i]N_IKVgEm0
+l89
+L56
+V4_SS?I<1NWac<ZTz^;LZ`1
+R7
+33
+R45
+R46
+R47
+R11
+R12
+!s100 oYlf]K@c=iea3>b@A6F001
+Emux_16to1
+Z48 w1331252688
+Z49 DPx3 lpm 14 lpm_components 0 22 ?Gb]Nezoo2SKGC17Rl0e`0
+R2
+R3
+R4
+Z50 8C:/Users/Mitchell/Documents/School/CSE/230/datapath/mux_16to1.vhd
+Z51 FC:/Users/Mitchell/Documents/School/CSE/230/datapath/mux_16to1.vhd
+l0
+L42
+VD[^iF8CzlFzHZ8@Ek]7I;2
+R7
+33
+Z52 !s108 1332768780.553000
+Z53 !s90 -reportprogress|300|-2008|-work|work|C:/Users/Mitchell/Documents/School/CSE/230/datapath/mux_16to1.vhd|
+Z54 !s107 C:/Users/Mitchell/Documents/School/CSE/230/datapath/mux_16to1.vhd|
+R11
+R12
+!s100 0bki1h77h5Sh2m;oV1O::0
+Asyn
+R49
+R2
+R3
+DEx4 work 9 mux_16to1 0 22 D[^iF8CzlFzHZ8@Ek]7I;2
+l90
+L67
+Vef?hb[LedDV5Em1zSmlEB0
+R7
+33
+R52
+R53
+R54
+R11
+R12
+!s100 kbzSc1NcF@BVf1e]ZTj[63
+Emux_2to1
+Z55 w1331602327
+R49
+R2
+R3
+R4
+Z56 8C:/Users/Mitchell/Documents/School/CSE/230/datapath/mux_2to1.vhd
+Z57 FC:/Users/Mitchell/Documents/School/CSE/230/datapath/mux_2to1.vhd
+l0
+L42
+VACHohWLO;AB]8mF4ZI]0I3
+R7
+33
+Z58 !s108 1332768779.383000
+Z59 !s90 -reportprogress|300|-2008|-work|work|C:/Users/Mitchell/Documents/School/CSE/230/datapath/mux_2to1.vhd|
+Z60 !s107 C:/Users/Mitchell/Documents/School/CSE/230/datapath/mux_2to1.vhd|
+R11
+R12
+!s100 ckJO@3KmiKg>V1:70@[h72
+Asyn
+R49
+R2
+R3
+DEx4 work 8 mux_2to1 0 22 ACHohWLO;AB]8mF4ZI]0I3
+l64
+L53
+VFa4OZM;?G1EIlh=6NPN`l0
+R7
+33
+R58
+R59
+R60
+R11
+R12
+!s100 cZcAaf?8B1;lWMMjZc6na1
+Emux_4to1
+Z61 w1331603040
+R49
+R2
+R3
+R4
+Z62 8C:/Users/Mitchell/Documents/School/CSE/230/datapath/mux_4to1.vhd
+Z63 FC:/Users/Mitchell/Documents/School/CSE/230/datapath/mux_4to1.vhd
+l0
+L42
+VY^CYL9@:e43XVg;I6dAW33
+R7
+33
+Z64 !s108 1332768779.851000
+Z65 !s90 -reportprogress|300|-2008|-work|work|C:/Users/Mitchell/Documents/School/CSE/230/datapath/mux_4to1.vhd|
+Z66 !s107 C:/Users/Mitchell/Documents/School/CSE/230/datapath/mux_4to1.vhd|
+R11
+R12
+!s100 mSGC4RnDo1dG<G[G3Gnz13
+Asyn
+R49
+R2
+R3
+DEx4 work 8 mux_4to1 0 22 Y^CYL9@:e43XVg;I6dAW33
+l66
+L55
+V::j4N_IG]1zXff]_b@Ffj3
+R7
+33
+R64
+R65
+R66
+R11
+R12
+!s100 L1Z98Ob>C3Eze=GM2BAPo3
+Emuxa
+Z67 w1332443913
+R49
+R2
+R3
+R4
+Z68 8C:/Users/Mitchell/Documents/School/CSE/230/datapath/MuxA.vhd
+Z69 FC:/Users/Mitchell/Documents/School/CSE/230/datapath/MuxA.vhd
+l0
+L42
+V]n0ZDIaQT>S>[8>CSM@W[2
+R7
+33
+Z70 !s108 1332768777.199000
+Z71 !s90 -reportprogress|300|-2008|-work|work|C:/Users/Mitchell/Documents/School/CSE/230/datapath/MuxA.vhd|
+Z72 !s107 C:/Users/Mitchell/Documents/School/CSE/230/datapath/MuxA.vhd|
+R11
+R12
+!s100 @bh7O_Ml2G]JbT:lG[9Z11
+Asyn
+R49
+R2
+R3
+DEx4 work 4 muxa 0 22 ]n0ZDIaQT>S>[8>CSM@W[2
+l64
+L53
+VmMfIK>?ON1efT^ZOVzWTQ1
+R7
+33
+R70
+R71
+R72
+R11
+R12
+!s100 SXaTC<LizWFPD99A<hB7K1
+Emuxb
+Z73 w1332443954
+R49
+R2
+R3
+R4
+Z74 8C:/Users/Mitchell/Documents/School/CSE/230/datapath/MuxB.vhd
+Z75 FC:/Users/Mitchell/Documents/School/CSE/230/datapath/MuxB.vhd
+l0
+L42
+VRhjdZHPnAP]<RV20=4=QD3
+R7
+33
+Z76 !s108 1332768777.620000
+Z77 !s90 -reportprogress|300|-2008|-work|work|C:/Users/Mitchell/Documents/School/CSE/230/datapath/MuxB.vhd|
+Z78 !s107 C:/Users/Mitchell/Documents/School/CSE/230/datapath/MuxB.vhd|
+R11
+R12
+!s100 nCPI;P2:bNDnNCDDNhzOC2
+Asyn
+R49
+R2
+R3
+DEx4 work 4 muxb 0 22 RhjdZHPnAP]<RV20=4=QD3
+l66
+L55
+VU`Z]37798h>aXFoo<zYzH2
+R7
+33
+R76
+R77
+R78
+R11
+R12
+!s100 NCeG:>G@aiPSokIab1Y9^0
+Emuxc
+Z79 w1332562959
+R49
+R2
+R3
+R4
+Z80 8C:/Users/Mitchell/Documents/School/CSE/230/datapath/MuxC.vhd
+Z81 FC:/Users/Mitchell/Documents/School/CSE/230/datapath/MuxC.vhd
+l0
+L42
+VRQ?DJPT=gLef2I??6?3=P3
+R7
+33
+Z82 !s108 1332768777.995000
+Z83 !s90 -reportprogress|300|-2008|-work|work|C:/Users/Mitchell/Documents/School/CSE/230/datapath/MuxC.vhd|
+Z84 !s107 C:/Users/Mitchell/Documents/School/CSE/230/datapath/MuxC.vhd|
+R11
+R12
+!s100 ^[Lh`X<^jW;>A14<2<N`c1
+Asyn
+R49
+R2
+R3
+DEx4 work 4 muxc 0 22 RQ?DJPT=gLef2I??6?3=P3
+l64
+L54
+VH4od5ZG8g7o11:41PK2zH1
+R7
+33
+R82
+R83
+R84
+R11
+R12
+!s100 B[QklP;DLkha<@m6Y1CH@0
+Emuxinc
+R42
+R49
+R2
+R3
+R4
+Z85 8C:/Users/Mitchell/Documents/School/CSE/230/datapath/muxinc.vhd
+Z86 FC:/Users/Mitchell/Documents/School/CSE/230/datapath/muxinc.vhd
+l0
+L42
+VWA_ASaeBZcC>f^?FclNmQ2
+R7
+33
+Z87 !s108 1332768784.235000
+Z88 !s90 -reportprogress|300|-2008|-work|work|C:/Users/Mitchell/Documents/School/CSE/230/datapath/muxinc.vhd|
+Z89 !s107 C:/Users/Mitchell/Documents/School/CSE/230/datapath/muxinc.vhd|
+R11
+R12
+!s100 87An7?iIC16GQ471K7Dle0
+Asyn
+R49
+R2
+R3
+DEx4 work 6 muxinc 0 22 WA_ASaeBZcC>f^?FclNmQ2
+l64
+L53
+VOkYA<7KkQ?9T:G@=`2iJR2
+R7
+33
+R87
+R88
+R89
+R11
+R12
+!s100 7;XjcQR=2_lb7@EN`aS]e1
+Emuxpc
+R42
+R49
+R2
+R3
+R4
+Z90 8C:/Users/Mitchell/Documents/School/CSE/230/datapath/muxpc.vhd
+Z91 FC:/Users/Mitchell/Documents/School/CSE/230/datapath/muxpc.vhd
+l0
+L42
+Vol455`:U19<`]T1X47DL:2
+R7
+33
+Z92 !s108 1332768783.236000
+Z93 !s90 -reportprogress|300|-2008|-work|work|C:/Users/Mitchell/Documents/School/CSE/230/datapath/muxpc.vhd|
+Z94 !s107 C:/Users/Mitchell/Documents/School/CSE/230/datapath/muxpc.vhd|
+R11
+R12
+!s100 MnGg[kU2oVW@2FUW6bRMb3
+Asyn
+R49
+R2
+R3
+DEx4 work 5 muxpc 0 22 ol455`:U19<`]T1X47DL:2
+l64
+L53
+V`8T`YK<cTGaQ64`S7Ie_z0
+R7
+33
+R92
+R93
+R94
+R11
+R12
+!s100 DfOi8QN4YEGmT:M7R9;cU1
+Emuxtest
+Z95 w1332738201
+R49
+R2
+R3
+R4
+Z96 8C:/Users/Mitchell/Documents/School/CSE/230/datapath/MuxTest.vhd
+Z97 FC:/Users/Mitchell/Documents/School/CSE/230/datapath/MuxTest.vhd
+l0
+L42
+V:YWa^UZ_3HDGS6@2G?AM:1
+R7
+33
+Z98 !s108 1332768778.478000
+Z99 !s90 -reportprogress|300|-2008|-work|work|C:/Users/Mitchell/Documents/School/CSE/230/datapath/MuxTest.vhd|
+Z100 !s107 C:/Users/Mitchell/Documents/School/CSE/230/datapath/MuxTest.vhd|
+R11
+R12
+!s100 KzhMXhf_AL5PWND<ABH8O1
+Asyn
+R49
+R2
+R3
+DEx4 work 7 muxtest 0 22 :YWa^UZ_3HDGS6@2G?AM:1
+l64
+L53
+VejEP0AU`]feESL=zA<b<L3
+R7
+33
+R98
+R99
+R100
+R11
+R12
+!s100 g^jUgX7YXLQYVgH4_h;973
+Epc
+Z101 w1332532107
+R2
+R3
+R4
+Z102 8C:/Users/Mitchell/Documents/School/CSE/230/datapath/pc.vhd
+Z103 FC:/Users/Mitchell/Documents/School/CSE/230/datapath/pc.vhd
+l0
+L42
+V<]9PU8lQXSQ:MR=dYdbkJ2
+R7
+33
+Z104 !s108 1332768782.784000
+Z105 !s90 -reportprogress|300|-2008|-work|work|C:/Users/Mitchell/Documents/School/CSE/230/datapath/pc.vhd|
+Z106 !s107 C:/Users/Mitchell/Documents/School/CSE/230/datapath/pc.vhd|
+R11
+R12
+!s100 zGD<8Pf3[7Wf]I>S309Hj0
+Asyn
+R2
+R3
+DEx4 work 2 pc 0 22 <]9PU8lQXSQ:MR=dYdbkJ2
+l75
+L54
+V88EDCQQ;<i39Pz3bF1dNS2
+R7
+33
+R104
+R105
+R106
+R11
+R12
+!s100 oZlb:9ZRoV@g1i2d?3b[j2
+Epc_temp
+R101
+R2
+R3
+R4
+Z107 8C:/Users/Mitchell/Documents/School/CSE/230/datapath/pc_temp.vhd
+Z108 FC:/Users/Mitchell/Documents/School/CSE/230/datapath/pc_temp.vhd
+l0
+L42
+VLl5]oaD9X?jYEez]d3]oh3
+R7
+33
+Z109 !s108 1332768784.609000
+Z110 !s90 -reportprogress|300|-2008|-work|work|C:/Users/Mitchell/Documents/School/CSE/230/datapath/pc_temp.vhd|
+Z111 !s107 C:/Users/Mitchell/Documents/School/CSE/230/datapath/pc_temp.vhd|
+R11
+R12
+!s100 :KfzC6lTT3z^UmY?IN<FT0
+Asyn
+R2
+R3
+DEx4 work 7 pc_temp 0 22 Ll5]oaD9X?jYEez]d3]oh3
+l73
+L53
+VUIQZfdVY=kHM5@kkC3Oid0
+R7
+33
+R109
+R110
+R111
+R11
+R12
+!s100 lGKXZ0QdAf_I;hh__Io[]0

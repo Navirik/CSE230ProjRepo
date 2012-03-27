@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Mar 26 09:15:51 2012
+Quartus II 32-bit Version : 11.1 Build 216 11/23/2011 SP 1 SJ Web Edition
+Revision Name : Datapath
+Top-level Entity Name : datapath
+Family : Cyclone II
+Device : EP2C20F484C7
+Timing Models : Final
+Total logic elements : 2,394 / 18,752 ( 13 % )
+    Total combinational functions : 2,378 / 18,752 ( 13 % )
+    Dedicated logic registers : 341 / 18,752 ( 2 % )
+Total registers : 341
+Total pins : 157 / 315 ( 50 % )
+Total virtual pins : 0
+Total memory bits : 0 / 239,616 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 52 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
